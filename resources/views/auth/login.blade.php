@@ -122,6 +122,14 @@
                 <button type="submit" class="w-full py-3 bg-blue-600 hover:bg-blue-750 text-white font-bold rounded-xl text-xs active:scale-[0.98] transition-all shadow-lg shadow-blue-500/10">
                     Authorize & Login
                 </button>
+
+                <!-- Signup Redirect Link -->
+                <div class="text-center pt-2">
+                    <p class="text-[10px] text-slate-500 font-semibold">
+                        Don't have an active court account? 
+                        <a href="{{ route('register') }}" class="text-blue-450 hover:underline font-bold">Create Account / Register Profile</a>
+                    </p>
+                </div>
             </form>
 
             <!-- Quick-Login Helper Matrix section -->
