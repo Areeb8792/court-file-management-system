@@ -20,7 +20,7 @@
                     <!-- Case Title -->
                     <div class="md:col-span-2">
                         <label class="block text-xs font-bold text-slate-450 mb-2">Lawsuit Title / Suit Name</label>
-                        <input type="text" name="title" required value="{{ old('title') }}" placeholder="e.g. State vs. John Doe (Aggravated Burglary)" 
+                        <input type="text" name="title" required value="{{ old('title') }}" placeholder="e.g. State vs. Walter White (Aggravated Burglary)" 
                                class="w-full text-xs font-semibold px-4 py-3 bg-slate-950/80 border border-slate-800 rounded-xl focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600/20 transition-all text-white placeholder-slate-600">
                     </div>
 

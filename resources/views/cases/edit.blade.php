@@ -19,7 +19,7 @@
                     <!-- Case Title -->
                     <div class="md:col-span-2">
                         <label class="block text-xs font-bold text-slate-500 dark:text-slate-450 mb-2">Lawsuit Title / Suit Name</label>
-                        <input type="text" name="title" required value="{{ old('title', $case->title) }}" placeholder="e.g. State vs. John Doe" 
+                        <input type="text" name="title" required value="{{ old('title', $case->title) }}" placeholder="e.g. State vs. Walter White" 
                                class="w-full text-xs font-semibold px-4 py-3 bg-slate-50 focus:bg-white dark:bg-slate-850 dark:focus:bg-slate-800 border border-slate-200 focus:border-indigo-500 dark:border-slate-800 dark:focus:border-indigo-500 rounded-2xl focus:outline-none focus:ring-4 focus:ring-indigo-500/10 transition-all text-slate-800 dark:text-slate-100">
                     </div>
 

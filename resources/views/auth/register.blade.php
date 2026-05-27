@@ -82,7 +82,7 @@
                     <div class="relative">
                         <iconify-icon icon="lucide:user" class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm"></iconify-icon>
                         <input type="text" name="name" id="name" required autofocus value="{{ old('name') }}" 
-                               placeholder="e.g. John Doe / Adv. John Doe" 
+                               placeholder="e.g. Walter White / Adv. Saul Goodman" 
                                class="w-full text-xs font-semibold px-4 py-3 bg-slate-950/80 border border-slate-800 rounded-xl focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600/20 transition-all text-white pl-11 placeholder-slate-650">
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     <div class="relative">
                         <iconify-icon icon="lucide:mail" class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm"></iconify-icon>
                         <input type="email" name="email" id="email" required value="{{ old('email') }}" 
-                               placeholder="john.doe@example.com" 
+                               placeholder="walter.white@example.com" 
                                class="w-full text-xs font-semibold px-4 py-3 bg-slate-950/80 border border-slate-800 rounded-xl focus:border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600/20 transition-all text-white pl-11 placeholder-slate-650">
                     </div>
                 </div>

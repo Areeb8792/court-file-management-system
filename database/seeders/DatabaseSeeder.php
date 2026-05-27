@@ -34,35 +34,35 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $judge1 = User::create([
-            'name' => 'Judge Hon. Albert Vance',
+            'name' => 'Judge Hon. Areeb Ali',
             'email' => 'judge@court.gov',
             'password' => Hash::make('password'),
             'role' => 'judge',
         ]);
 
         $judge2 = User::create([
-            'name' => 'Judge Hon. Elena Kagan',
+            'name' => 'Judge Hon. Hareesh Sharma',
             'email' => 'judge2@court.gov',
             'password' => Hash::make('password'),
             'role' => 'judge',
         ]);
 
         $lawyer1 = User::create([
-            'name' => 'Adv. Sarah Jenkins',
+            'name' => 'Adv. Saul Goodman',
             'email' => 'lawyer@court.gov',
             'password' => Hash::make('password'),
             'role' => 'lawyer',
         ]);
 
         $lawyer2 = User::create([
-            'name' => 'Adv. Michael Cho',
+            'name' => 'Adv. Harvey Specter',
             'email' => 'lawyer2@court.gov',
             'password' => Hash::make('password'),
             'role' => 'lawyer',
         ]);
 
         $publicUser = User::create([
-            'name' => 'John Public',
+            'name' => 'Walter White',
             'email' => 'public@court.gov',
             'password' => Hash::make('password'),
             'role' => 'public',
@@ -217,7 +217,7 @@ class DatabaseSeeder extends Seeder
             'user_id' => $clerk->id,
             'court_case_id' => $case1->id,
             'action' => 'Judge Assigned',
-            'details' => 'Judge Hon. Albert Vance assigned to case.',
+            'details' => 'Judge Hon. Areeb Ali assigned to case.',
             'ip_address' => '127.0.0.1',
             'created_at' => Carbon::now()->subDays(4),
         ]);
@@ -226,7 +226,7 @@ class DatabaseSeeder extends Seeder
             'user_id' => $clerk->id,
             'court_case_id' => $case1->id,
             'action' => 'Lawyer Assigned',
-            'details' => 'Adv. Sarah Jenkins assigned to represent the defense counsel.',
+            'details' => 'Adv. Saul Goodman assigned to represent the defense counsel.',
             'ip_address' => '127.0.0.1',
             'created_at' => Carbon::now()->subDays(4),
         ]);
